@@ -1,0 +1,76 @@
+.header {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container a {
+    text-decoration: none;
+}
+
+.header .container > ul {
+    /*padding: 0;*/
+    clear: both;
+    /*overflow: hidden;*/
+    padding: 13px 0;
+    /*height: 21px;*/
+    height: 31px;
+}
+
+.header .container > ul > li {
+    list-style: none;
+    float: left;
+    /*margin: 5px 20px;*/
+    padding: 5px 20px;
+}
+
+.header .container > ul > li span {
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.header .container > ul > li:hover span .project {
+    visibility: visible;
+}
+
+.header .container > ul > li a:hover {
+    /*color: #bbbbbb;*/
+
+}
+
+.header .container .project {
+    position: absolute;
+    top: 22px;
+    z-index: 100000;
+    left: -8px;
+    visibility: hidden;
+    background-color: black;
+}
+
+.header .container .project {
+
+}
+
+.header .container .project li {
+    padding: 10px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.header .container .project li a {
+    /*color:red;*/
+    color: white;
+}
+
+.header .container .project li a:hover {
+    color: #aeafff;
+}

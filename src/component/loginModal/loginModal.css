@@ -1,0 +1,25 @@
+.ant-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -160px 0 0 -160px;
+    width: 320px;
+    height: 320px;
+    padding: 36px;
+    background-color: #f8f8f8;
+    -webkit-box-shadow: 0 0 100px rgba(0,0,0,.1);
+    box-shadow: 0 0 100px rgba(0,0,0,.1);
+}
+.ant-form .login-form-button {
+    width: 100%;
+}
+.ant-form p {
+    color: #ccc;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 12px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}

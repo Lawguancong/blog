@@ -1,0 +1,78 @@
+.home-body {
+    position: relative;
+    /*padding-top: 60px;*/
+    /*width: 100%;*/
+}
+
+.home-body .container {
+    /*max-width: 1200px;*/
+    /*margin: 0 auto;*/
+    /*color: white;*/
+}
+
+.home-body .container .articleList {
+    /*padding: 10px;*/
+    color: rgba(0, 0, 0, .65);
+    font-family: Monospaced Number, Chinese Quote, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 0 40px;
+
+}
+
+.home-body .container .articleList .articleListDetails {
+    padding: 14px 24px;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    -webkit-transition: -webkit-box-shadow .3s ease-in;
+    transition: -webkit-box-shadow .3s ease-in;
+    -o-transition: box-shadow .3s ease-in;
+    transition: box-shadow .3s ease-in, -webkit-box-shadow .3s ease-in;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background: #f9f9f9;
+    position: relative;
+    /*margin-top: 10px;*/
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,.15);
+    box-shadow: 0 0 4px rgba(0,0,0,.15);
+
+}
+
+.home-body .container .articleList .articleListDetails h3 {
+    font-weight: 700;
+    color: rgba(0, 0, 0, .85);
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.home-body .container .articleList .articleListDetails p {
+    color: #999;
+    margin: 15px 0 10px;
+}
+
+.home-body .container .articleList .articleListDetails p span {
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.home-body .container .articleList .abstract {
+    margin-bottom: 5px;
+    /*max-height: 100px;*/
+    /*width: 100%;*/
+    /*display: -webkit-box;*/
+    /*-webkit-box-orient: vertical;*/
+    /*-webkit-line-clamp: 2;*/
+    /*overflow: hidden;*/
+}
+
+.home-body .container .articleList .link-article {
+    margin-top: 5px;
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: #108ee9;
+    font-weight: 600;
+}

@@ -1,0 +1,18 @@
+.article {
+    /*color: white;*/
+    background-color: white;
+    padding: 14px 24px;
+}
+
+.article-details h3 {
+    font-weight: 700;
+    color: rgba(0, 0, 0, .85);
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.article-details p {
+    color: #999;
+    margin: 15px 0 10px;
+}
